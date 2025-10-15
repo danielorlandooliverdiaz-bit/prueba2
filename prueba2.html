@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninfas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="text-white text-center py-3">
+        <h1>Ninfas</h1>
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-white font-indice" href="#inicio">Inicio</a>
+            <a class="nav-link text-white font-indice" href="#eventos">Eventos</a>
+            <a class="nav-link text-white font-indice" href="#contacto">Contacto</a>
+            <a class="nav-link text-white font-indice" href="#registro">Registro</a>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio">
+            <div class="text-center">
+                <h2 class="font-bonello px-2 display-4">Bienvenido a</h2>
+                <h2 class="font-bonello px-2 display-4"> NINFAS</h2>
+                <p class="lead">Un proyecto innovador que combina diferentes tecnología para ofrecer una solucion diferente de seguridad </p>
+                <div class="mt-4">
+                    <img src="assets/img/modelo2.png" class="img-fluid d-block mx-auto w-25 mb-5" alt="Ninfa">
+                    <a href="#eventos" class="btn btn-primary btn-lg">Ver Eventos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="d-none">
+            <h2 class=" font-estilo2 px-5 display-4 text-center">Nuestros Eventos</h2>
+            <input type="text" id="project-search" placeholder="Buscar proyectos...">
+            <hr class="border border-dark my-4">
+            <div class="row justify-content-center">
+                <img src="assets/img/banninfas.png" class="img-fluid banner-img pb-5 " alt="Ninfa">
+            </div>
+
+            <div class="row justify-content-center g-4 m-5">
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm card-shadow-hover">
+                        <img src="assets/img/banner1.jpg" class="card-img-top img-fluid" alt="Imagen del mecanismo de Ninfas">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Como lo hace?</h5>
+                            <p class="card-text"> Ninfas busca nuestra protección, pero ¿Como lo hace ? </p>
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="collapse" href="#collapseConcierto" role="button" aria-expanded="false" aria-controls="collapseConcierto">Más info</a>
+                            <div class="collapse mt-2" id="collapseConcierto">
+                                <p>Brindan nuestra protección gracias a la mezcla de la tecnología, el uso de sensores y un sistema que mezcla varias prácticas, para conseguir que estos dispositvos cumplan la función de pajaros guardianes .</p>
+                                <p>Para una mejor explicación <a href="#how" class="text-decoration-underline">pincha aquí</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm card-shadow-hover">
+                        <img src="assets/img/banner1.jpg" class="card-img-top img-fluid" alt="Previsualización del mapa localizador">
+                        <div class="card-body">
+                            <h5 class="card-title ">Pre Visualización mapa </h5>
+                            <p class="card-text">En este apartado se puede ver una previsualización del mapa/localizador, a través de él podemos ver la ruta que siguen nuestras ninfas, en tiempo real, además de ver donde hay cuerpos de seguridad, logs de peligro, incluso marca las zonas seguras. </p>
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="collapse" href="#mapa-preview" role="button" aria-expanded="false" aria-controls="mapa">Más info</a>
+                            <div class="collapse mt-2" id="mapa-preview">
+                                <p>Para una mejor visualización, <a href="#mapa" class="text-decoration-underline">pincha aquí</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm card-shadow-hover">
+                        <img src="assets/img/banner1.jpg" class="card-img-top img-fluid" alt="Imagen del equipo de colaboradores">
+                        <div class="card-body">
+                            <h5 class="card-title">Equipo colaborativo</h5>
+                            <p class="card-text">Nuestro equipo esta compueso por diferentes colaboradores. ¿Quieres ver quienes componen este equipo ? </p>
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="collapse" href="#equipo-preview" role="button" aria-expanded="false" aria-controls="equipo">Más info</a>
+                            <div class="collapse mt-2" id="equipo-preview">
+                                <p><a href="#equipo" class="text-decoration-underline">pincha aquí</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm card-shadow-hover">
+                        <img src="assets/img/banner1.jpg" class="card-img-top img-fluid" alt="Imagen de buzón de sugerencias">
+                        <div class="card-body">
+                            <h5 class="card-title">Buzon de sugerencias o dudas </h5>
+                            <p class="card-text">¿Qué crees que nos falta?¿Sientes que hay cosas que no quedan claras? Puedes dejar cualquier sugerencia de mejora o duda aquí </p>
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="collapse" href="#dudas-preview" role="button" aria-expanded="false" aria-controls="dudas">Más info</a>
+                            <div class="collapse mt-2" id="dudas-preview">
+                                <p>Buzón <a href="#buzon" class="text-decoration-underline"> aquí</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm card-shadow-hover">
+                        <img src="assets/img/banner1.jpg" class="card-img-top img-fluid" alt="Imagen del equipo de colaboradores">
+                        <div class="card-body">
+                            <h5 class="card-title">Sección de relleno </h5>
+                            <p class="card-text">Esta es una seccion de simple relleno para ampliar cards </p>
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="collapse" href="#equipo" role="button" aria-expanded="false" aria-controls="equipo">Más info</a>
+                            <div class="collapse mt-2" id="equipo">
+                                <p><a href="#equipo" class="text-decoration-underline">pincha aquí</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm card-shadow-hover">
+                        <img src="assets/img/banner1.jpg" class="card-img-top img-fluid" alt="Imagen del equipo de colaboradores">
+                        <div class="card-body">
+                            <h5 class="card-title">Sección de relleno</h5>
+                            <p class="card-text">Esta es una seccion de simple relleno para ampliar cards </p>
+                            <a class="btn btn-primary btn.sm" data-bs-toggle="collapse" href="#equipo" role="button" aria-expanded="false" aria-controls="equipo">Más info</a>
+                            <div class="collapse mt-2" id="equipo">
+                                <p><a href="#equipo" class="text-decoration-underline">pincha aquí</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="d-none">
+            <h2 class="mb-4 text-center font-bonello">Envíanos un mensaje</h2>
+            <form id="contact-form">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre-contacto" placeholder="Tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email-contacto" placeholder="Tu email">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje-contacto" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <section id="registro" class="d-none">
+            <h2 class="mb-4 text-center font-bonello">Crea tu cuenta</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre completo:</label>
+                    <input type="text" class="form-control" id="nombre-registro" placeholder="Tu nombre completo">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email-registro" placeholder="Tu email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña:</label>
+                    <input type="password" class="form-control" id="password-registro" placeholder="Tu contraseña">
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono-registro" placeholder="Tu teléfono">
+                </div>
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+        </section>
+
+        <section id="buzon" class="d-none">
+            <h2 class="text-center mb-4 font-bonello">Buzón de Sugerencias</h2>
+            <p>Cuéntanos qué mejorarías o si tienes alguna duda.</p>
+
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Tu nombre</label>
+                    <input type="text" class="form-control" id="nombre-buzon" placeholder="Escribe tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Tu sugerencia</label>
+                    <textarea class="form-control" id="mensaje-buzon" rows="4" placeholder="Escribe aquí tu comentario"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <section id="how" class="d-none">
+            <div class="row bg-light p-5 py-5 my-5">
+
+                <div class="col-12">
+                    <h3 class="text-center font-bonello">¿ Cual es la causa?</h3>
+                    <p class="text-center">Qués es lo que mueve al mundo ?? Creemos que el dinero es la respuesta, hasta que falta tiempo.
+                        En momentos importantes hasta unas milésimas de segundos pueden serlo todo.El cambio entre una tragedia o no, una vida o no, la capacidad humana y las capacidades de las tecnologías que usamos para mantener una estructura social no son capaces de afrontar el reto del tiempo. Ninfas si. </p>
+                </div>
+
+                <div class="col-12">
+                    <h3 class="text-center font-bonello">¿Cómo lo hace Ninfas?</h3>
+                    <p class="text-center">Un sistema de seguridad que se basa en la videovigilancia a tiempo real por drones los cuales tienen diferentes tecnologías que logran analizar datos que detectan el peligro (a tiempo real) y como ángeles guardianes, resuelvan y asistan al peligro de las calles a tiempo real y casi de forma automática. </p>
+                    <p class="text-center">Estos dispositivos detectan amenazas y responden de forma eficiente, garantizando seguridad y tranquilidad.</p>
+                    <p class="text-center">Esta idea cuenta con un gran sistema, pudiendo desglosarlo en </p>
+                </div>
+
+                <div class="col-12">
+                    <h3 class="text-center font-bonello">Cabinas aéreas que aguardan las ninfas</h3>
+                    <p class="text-center">Las cabinas aereas se entiende a la perfección si lo simulas con el nido de un pajaro, los dospisitivos aguardan allí, salen y entran según la demanda y el espacio esta preparado para que nunca les falte carga
+                    </p>
+                </div>
+
+                <div class="col-12">
+                    <h3 class="text-center font-bonello">Perimetro y vuelo</h3>
+                    <p class="text-center">Las ninfas madres siguen rutas en las que van vigilando y analizando zonas perimétricas amplias.
+                    Cuando el nivel de actividad de la zona perimétrica no la puede abastecer una madre, llama a sus hijos para que le hagan asistencias temporales ( pero indefinidas) </p>
+                </div>
+
+                <div class="col-12">
+                    <h3 class="text-center font-bonello">Peligro y Logs</h3>
+                    <p class="text-center">Al detectar peligro según parámetros estudiados, pasar al protocolo de prevención, que es el que asegura que realmente hay un peligro, la o las ninfas se acercaran a dicho log (el peligro) y activara su protocolo de alerta capturando datos mas específicos, más una conexión remota a las centrales de vigilancia.</p>
+                    <p class="text-center">A través del la tecnología y el equipo se podrá logear como peligro real o no.
+                        El log de peligro real activa el plan de actuación, el cual captura datos relevantes para la actuación, que serían llamar a equipos de seguridad, a los mas cercanos, capturar imágenes para tener pruebas (sistema de reconocimiento facial ( bases de datos para reconocer a victimas y culpables)), seguimiento de individuos, calculo de material o equipo necesario (paramédicos etc ), hasta localizar a traves de edificios...
+                    </p>
+                </div>
+
+                <div class="col-12">
+                    <h3 class="text-center font-bonello">¿Y por que Ninfas?</h3>
+                    <p class="text-center">Hay dos razones por las que nuestro proyecto tiene este nombre. Por La cacatúa ninfa, cocotilla o carolina, son conocidas por su temperamento amable, inteligente y social. Por otro lado tenemos a las ninfas mitológicas que son espíritus femeninos de la naturaleza, representadas como jóvenes hermosas y eternamente juveniles, asociadas a lugares específicos como bosques, ríos o montañas. Poseen la habilidad de interactuar y, a veces, controlar su entorno natural, y se las representa como seres que inspiran y protegen la fertilidad y la vida de la naturaleza. Mezclando ambos conceptos queda un ave ligera, rápida y cotilla que busca interactuar con su sociedad, controlar su entorno y protegerlo.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        &copy; Danhery Rodriguez Quiroga- Ninfas Mi Proyecto Web
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirmación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¡Gracias por tu mensaje!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

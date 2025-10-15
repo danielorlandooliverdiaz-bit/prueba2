@@ -1,0 +1,99 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+   
+display: flex;
+  flex-direction: column;
+   background: linear-gradient(to right, #ff00957e, #6f42c1);
+}  
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  flex: 1; 
+}
+
+
+header {
+    width: 100%;
+    background-color: #21022b;
+    padding: 25px 70px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.card-body{
+    background-color: #d1f2f3;
+}
+
+
+.footer-banner {
+    background-image: url('/assets/img/');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    height: 200px;                
+}
+
+@font-face {
+    font-family:'Titulos1';
+    src: url(/assets/styles/akira_expanded/Akira\ Expanded\ Demo.otf );
+}
+
+.font-titulo1 {
+    font-family:'Titulos1';
+ 
+}
+@font-face {
+    font-family:'Indice';
+    src: url(/assets/styles/rebucked/rebucked.ttf);
+}
+
+.font-indice {
+    font-family:'Indice';
+}
+
+
+
+@font-face {
+    font-family: 'Bonello';
+    src: url(/assets/styles/bonello/Bonello-Regular.otf);
+}
+
+.font-bonello {
+    font-family: 'Bonello';
+}
+
+@font-face {
+    font-family: 'estilo2';
+    src: url(/assets/styles/FortalesiaPlain_PERSONAL_USE_ONLY.otf);
+}
+
+.font-estilo2 {
+    font-family: 'estilo2';
+}
+
+
+footer{
+ background: linear-gradient(to right, #9900ff7e, #bd3bab); 
+}
+
+ .card-shadow-hover {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+    
+ .card-shadow-hover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+        }
+
+    
+.banner-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+}
